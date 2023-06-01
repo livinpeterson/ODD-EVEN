@@ -1,0 +1,9 @@
+#Ask the user for a number. Depending on whether the number is even or odd, 
+#print out an appropriate message to the user.
+
+User = int(input("Enter the number: "))
+
+if (User%2)==0:
+    print("Hurray!, it's a even number")
+else:
+    print("Hurray, it's a odd number")
